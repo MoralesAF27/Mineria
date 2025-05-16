@@ -21,12 +21,12 @@ public class Main {
         ProcesadorDocumento procesador = new ProcesadorDocGeneral(lectorDOC);
         procesador.procesarDocumento();
 
-        System.out.println("------------");
+        System.out.println("\n\n\n");
 
         procesador = new ProcesadorDocGeneral(lectorCSV);
         procesador.procesarDocumento();
 
-        System.out.println("------------");
+        System.out.println("\n\n\n");
 
         procesador = new ProcesadorDocGeneral(lectorPDF);
         procesador.procesarDocumento();
