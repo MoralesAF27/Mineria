@@ -20,15 +20,15 @@ public abstract class LectorDocumento {
     protected abstract void leer();
 
     protected void extraerDatos() {
-        System.out.println("Extrayendo datos relevantes...");
+        System.out.println("Extraer datos relevantes del documento seleccionado");
     }
 
     protected void analizar() {
-        System.out.println("Analizando contenido...");
+        System.out.println("Analizar el contenido");
     }
 
     protected void exportar() {
-        System.out.println("Exportando resultados en formato uniforme.");
+        System.out.println("Exportando resultado.");
     }
 }
 
