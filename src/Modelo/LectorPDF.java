@@ -12,7 +12,7 @@ package Modelo;
 public class LectorPDF extends LectorDocumento {
     @Override
     protected void leer() {
-        System.out.println("Leyendo documento PDF...");
+        System.out.println("Leer documento .PDF");
     }
 }
 
